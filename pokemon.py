@@ -29,7 +29,7 @@ import os
 pokemon_exist = os.path.exists("pokemon.ccsv")
 header = ["no","name"]
 
-with open("pokemon.csv","a") as file:
+with open("pokemon.csv","a",newline="") as file:
     writer = csv.writer(file)
 
     if not pokemon_exist :
