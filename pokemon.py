@@ -26,7 +26,7 @@ driver.close()
 import csv
 import os
 
-pokemon_exist = os.path.exists("pokemon.ccsv")
+pokemon_exist = os.path.exists("pokemon.csv")
 header = ["no","name"]
 
 with open("pokemon.csv","a",newline="") as file:
